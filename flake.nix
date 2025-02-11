@@ -53,5 +53,6 @@
       defaultPackage = forAllSystems (system: self.packages.${system}.make-templates);
 
       templates = import ./templates.nix;
+      defaultTemplate = self.templates.r-radian_vscode;
     };
 }

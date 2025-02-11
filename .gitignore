@@ -1,0 +1,5 @@
+.direnv
+.vscode
+standalone
+.Rhistory
+result

@@ -34,7 +34,7 @@
                echo "$curdate"
                mkdir -p "templates/$curdate"
                mkdir -p "templates/$curver"
-               cp templates/radian_vscode/flake.nix "templates/$curdate/flake.nix"
+               cp templates/default/flake.nix "templates/$curdate/flake.nix"
                sed -i  "s|url = \"https://github.com/rstats-on-nix/nixpkgs/archive/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\.tar\.gz\";|url = \"https://github.com/rstats-on-nix/nixpkgs/archive/$curdate.tar.gz\";|" "templates/$curdate/flake.nix"
                cp "templates/$curdate/flake.nix" "templates/$curver/flake.nix"
             done < <(printf '%s\n' "$r_dates_versions")
@@ -53,6 +53,6 @@
       defaultPackage = forAllSystems (system: self.packages.${system}.make-templates);
 
       templates = import ./templates.nix;
-      defaultTemplate = self.templates.r-radian_vscode;
+      defaultTemplate = self.templates.r-default;
     };
 }

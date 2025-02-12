@@ -251,6 +251,10 @@
     path = ./templates/4.4.2;
     description = "4.4.2";
   };
+  r-default = {
+    path = ./templates/default;
+    description = "default";
+  };
   r-radian_vscode = {
     path = ./templates/radian_vscode;
     description = "radian_vscode";

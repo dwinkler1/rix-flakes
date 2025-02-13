@@ -251,12 +251,40 @@
     path = ./templates/4.4.2;
     description = "4.4.2";
   };
+  r-bioc-devel = {
+    path = ./templates/bioc-devel;
+    description = "bioc-devel";
+  };
+  r-bleeding-edge = {
+    path = ./templates/bleeding-edge;
+    description = "bleeding-edge";
+  };
   r-default = {
     path = ./templates/default;
     description = "default";
   };
+  r-devel = {
+    path = ./templates/devel;
+    description = "devel";
+  };
+  r-devel-bioc-devel = {
+    path = ./templates/devel-bioc-devel;
+    description = "devel-bioc-devel";
+  };
+  r-frozen-edge = {
+    path = ./templates/frozen-edge;
+    description = "frozen-edge";
+  };
+  r-latest-upstream = {
+    path = ./templates/latest-upstream;
+    description = "latest-upstream";
+  };
   r-radian_vscode = {
     path = ./templates/radian_vscode;
     description = "radian_vscode";
+  };
+  r-unstable-upstream = {
+    path = ./templates/unstable-upstream;
+    description = "unstable-upstream";
   };
 }

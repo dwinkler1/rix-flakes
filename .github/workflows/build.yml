@@ -2,9 +2,9 @@
 name: Recreate R flakes
 
 on:
-  # Run every day at 1:30pm UTC
+  # Run three times every day
   schedule:
-    - cron: "30 13 * * *"
+    - cron: "30 */8 * * *"
 
     # Runs on pushes targeting the default branch
   push:

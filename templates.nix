@@ -155,6 +155,10 @@
     path = ./templates/2025-02-24;
     description = "2025-02-24";
   };
+  r-2025-02-28 = {
+    path = ./templates/2025-02-28;
+    description = "2025-02-28";
+  };
   r-3_5_3 = {
     path = ./templates/3.5.3;
     description = "3.5.3";
@@ -258,6 +262,10 @@
   r-4_4_2 = {
     path = ./templates/4.4.2;
     description = "4.4.2";
+  };
+  r-4_4_3 = {
+    path = ./templates/4.4.3;
+    description = "4.4.3";
   };
   r-bioc-devel = {
     path = ./templates/bioc-devel;

@@ -27,6 +27,8 @@
           make-templates = pkgs.writeShellScriptBin "make-templates" ''
             r_file=$(wget -qO- "https://raw.githubusercontent.com/ropensci/rix/refs/heads/main/inst/extdata/available_df.csv")
             r_dates_versions=$(echo "$r_file" | tail -n +2 | cut -d',' -f2,4 | tr -d '"' | sort)
+            daily_dates=$(git ls-remote https://github.com/rstats-on-nix/nixpkgs/ "????-??-??" --tags | cut -d"/" -f3)
+
             while IFS= read -r curdatev
             do
                curver=$(echo "$curdatev" | cut -d',' -f1)
@@ -38,6 +40,15 @@
                sed -i  "s|url = \"https://github.com/rstats-on-nix/nixpkgs/archive/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\.tar\.gz\";|url = \"https://github.com/rstats-on-nix/nixpkgs/archive/$curdate.tar.gz\";|" "templates/$curdate/flake.nix"
                cp "templates/$curdate/flake.nix" "templates/$curver/flake.nix"
             done < <(printf '%s\n' "$r_dates_versions")
+
+            while IFS= read -r curdate
+            do
+               echo "$curdate"
+               mkdir -p "templates/daily-$curdate"
+               cp templates/default/flake.nix "templates/daily-$curdate/flake.nix"
+               sed -i  "s|url = \"https://github.com/rstats-on-nix/nixpkgs/archive/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\.tar\.gz\";|url = \"https://github.com/rstats-on-nix/nixpkgs/archive/$curdate.tar.gz\";|" "templates/daily-$curdate/flake.nix"
+            done < <(printf '%s\n' "$daily_dates")
+
             temps=$(ls templates)
             echo '{' > templates.nix
             while IFS= read -r curtemp

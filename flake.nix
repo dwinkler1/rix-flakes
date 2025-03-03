@@ -27,7 +27,7 @@
           make-templates = pkgs.writeShellScriptBin "make-templates" ''
             r_file=$(wget -qO- "https://raw.githubusercontent.com/ropensci/rix/refs/heads/main/inst/extdata/available_df.csv")
             r_dates_versions=$(echo "$r_file" | tail -n +2 | cut -d',' -f2,4 | tr -d '"' | sort)
-            daily_dates=$(git ls-remote https://github.com/rstats-on-nix/nixpkgs/ "????-??-??" --tags | cut -d"/" -f3)
+            daily_dates=$(${pkgs.git}/bin/git ls-remote https://github.com/rstats-on-nix/nixpkgs/ "????-??-??" --tags | cut -d"/" -f3)
 
             while IFS= read -r curdatev
             do

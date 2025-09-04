@@ -279,6 +279,10 @@
     path = ./templates/2025-09-01;
     description = "2025-09-01";
   };
+  r-2025-09-04 = {
+    path = ./templates/2025-09-04;
+    description = "2025-09-04";
+  };
   r-3_5_3 = {
     path = ./templates/3.5.3;
     description = "3.5.3";

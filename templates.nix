@@ -1703,6 +1703,10 @@
     path = ./templates/daily-2025-09-24;
     description = "daily-2025-09-24";
   };
+  r-daily-2025-09-25 = {
+    path = ./templates/daily-2025-09-25;
+    description = "daily-2025-09-25";
+  };
   r-default = {
     path = ./templates/default;
     description = "default";

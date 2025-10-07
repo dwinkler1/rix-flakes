@@ -303,6 +303,10 @@
     path = ./templates/2025-09-29;
     description = "2025-09-29";
   };
+  r-2025-10-07 = {
+    path = ./templates/2025-10-07;
+    description = "2025-10-07";
+  };
   r-3_5_3 = {
     path = ./templates/3.5.3;
     description = "3.5.3";

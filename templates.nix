@@ -1843,6 +1843,10 @@
     path = ./templates/daily-2025-10-24;
     description = "daily-2025-10-24";
   };
+  r-daily-2025-10-25 = {
+    path = ./templates/daily-2025-10-25;
+    description = "daily-2025-10-25";
+  };
   r-default = {
     path = ./templates/default;
     description = "default";

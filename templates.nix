@@ -1955,6 +1955,10 @@
     path = ./templates/daily-2025-11-16;
     description = "daily-2025-11-16";
   };
+  r-daily-2025-11-17 = {
+    path = ./templates/daily-2025-11-17;
+    description = "daily-2025-11-17";
+  };
   r-default = {
     path = ./templates/default;
     description = "default";

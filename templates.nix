@@ -1979,6 +1979,10 @@
     path = ./templates/daily-2025-11-22;
     description = "daily-2025-11-22";
   };
+  r-daily-2025-11-23 = {
+    path = ./templates/daily-2025-11-23;
+    description = "daily-2025-11-23";
+  };
   r-default = {
     path = ./templates/default;
     description = "default";

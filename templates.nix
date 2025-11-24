@@ -1983,6 +1983,10 @@
     path = ./templates/daily-2025-11-23;
     description = "daily-2025-11-23";
   };
+  r-daily-2025-11-24 = {
+    path = ./templates/daily-2025-11-24;
+    description = "daily-2025-11-24";
+  };
   r-default = {
     path = ./templates/default;
     description = "default";

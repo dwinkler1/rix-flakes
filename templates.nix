@@ -2007,6 +2007,10 @@
     path = ./templates/daily-2025-11-28;
     description = "daily-2025-11-28";
   };
+  r-daily-2025-11-29 = {
+    path = ./templates/daily-2025-11-29;
+    description = "daily-2025-11-29";
+  };
   r-default = {
     path = ./templates/default;
     description = "default";

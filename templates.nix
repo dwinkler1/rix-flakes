@@ -2423,6 +2423,10 @@
     path = ./templates/daily-2026-02-28;
     description = "daily-2026-02-28";
   };
+  r-daily-2026-03-01 = {
+    path = ./templates/daily-2026-03-01;
+    description = "daily-2026-03-01";
+  };
   r-default = {
     path = ./templates/default;
     description = "default";

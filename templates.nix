@@ -411,6 +411,10 @@
     path = ./templates/2026-03-23;
     description = "2026-03-23";
   };
+  r-2026-03-30 = {
+    path = ./templates/2026-03-30;
+    description = "2026-03-30";
+  };
   r-3_5_3 = {
     path = ./templates/3.5.3;
     description = "3.5.3";
@@ -2566,6 +2570,10 @@
   r-daily-2026-03-30 = {
     path = ./templates/daily-2026-03-30;
     description = "daily-2026-03-30";
+  };
+  r-daily-2026-03-31 = {
+    path = ./templates/daily-2026-03-31;
+    description = "daily-2026-03-31";
   };
   r-default = {
     path = ./templates/default;

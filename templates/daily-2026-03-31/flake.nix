@@ -2,7 +2,7 @@
   description = "A Nix-flake-based R development environment";
   inputs = {
     nixpkgs = {
-      url = "https://github.com/rstats-on-nix/nixpkgs/archive/2026-03-30.tar.gz";
+      url = "https://github.com/rstats-on-nix/nixpkgs/archive/2026-03-31.tar.gz";
     };
     flake-utils.url = "github:numtide/flake-utils";
   };

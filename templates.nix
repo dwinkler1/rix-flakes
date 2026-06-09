@@ -447,6 +447,10 @@
     path = ./templates/2026-05-25;
     description = "2026-05-25";
   };
+  r-2026-06-09 = {
+    path = ./templates/2026-06-09;
+    description = "2026-06-09";
+  };
   r-3_5_3 = {
     path = ./templates/3.5.3;
     description = "3.5.3";
@@ -2854,6 +2858,10 @@
   r-daily-2026-06-06 = {
     path = ./templates/daily-2026-06-06;
     description = "daily-2026-06-06";
+  };
+  r-daily-2026-06-09 = {
+    path = ./templates/daily-2026-06-09;
+    description = "daily-2026-06-09";
   };
   r-default = {
     path = ./templates/default;

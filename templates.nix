@@ -451,6 +451,10 @@
     path = ./templates/2026-06-09;
     description = "2026-06-09";
   };
+  r-2026-06-15 = {
+    path = ./templates/2026-06-15;
+    description = "2026-06-15";
+  };
   r-3_5_3 = {
     path = ./templates/3.5.3;
     description = "3.5.3";

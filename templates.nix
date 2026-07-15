@@ -3011,6 +3011,10 @@
     path = ./templates/daily-2026-07-14;
     description = "daily-2026-07-14";
   };
+  r-daily-2026-07-15 = {
+    path = ./templates/daily-2026-07-15;
+    description = "daily-2026-07-15";
+  };
   r-default = {
     path = ./templates/default;
     description = "default";
@@ -3022,6 +3026,10 @@
   r-devel-bioc-devel = {
     path = ./templates/devel-bioc-devel;
     description = "devel-bioc-devel";
+  };
+  r-flake_nix = {
+    path = ./templates/flake.nix;
+    description = "flake.nix";
   };
   r-frozen-edge = {
     path = ./templates/frozen-edge;

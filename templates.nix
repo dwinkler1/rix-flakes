@@ -459,6 +459,10 @@
     path = ./templates/2026-06-22;
     description = "2026-06-22";
   };
+  r-2026-07-27 = {
+    path = ./templates/2026-07-27;
+    description = "2026-07-27";
+  };
   r-3_5_3 = {
     path = ./templates/3.5.3;
     description = "3.5.3";
@@ -586,6 +590,10 @@
   r-4_6_0 = {
     path = ./templates/4.6.0;
     description = "4.6.0";
+  };
+  r-4_6_1 = {
+    path = ./templates/4.6.1;
+    description = "4.6.1";
   };
   r-bioc-devel = {
     path = ./templates/bioc-devel;

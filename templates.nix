@@ -3151,6 +3151,10 @@
     path = ./templates/daily-2026-08-24;
     description = "daily-2026-08-24";
   };
+  r-daily-2026-08-25 = {
+    path = ./templates/daily-2026-08-25;
+    description = "daily-2026-08-25";
+  };
   r-default = {
     path = ./templates/default;
     description = "default";

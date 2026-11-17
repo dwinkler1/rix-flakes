@@ -495,6 +495,10 @@
     path = ./templates/2026-10-13;
     description = "2026-10-13";
   };
+  r-2026-11-16 = {
+    path = ./templates/2026-11-16;
+    description = "2026-11-16";
+  };
   r-3_5_3 = {
     path = ./templates/3.5.3;
     description = "3.5.3";
@@ -626,6 +630,10 @@
   r-4_6_1 = {
     path = ./templates/4.6.1;
     description = "4.6.1";
+  };
+  r-4_6_2 = {
+    path = ./templates/4.6.2;
+    description = "4.6.2";
   };
   r-bioc-devel = {
     path = ./templates/bioc-devel;
@@ -3458,6 +3466,10 @@
   r-daily-2026-11-16 = {
     path = ./templates/daily-2026-11-16;
     description = "daily-2026-11-16";
+  };
+  r-daily-2026-11-17 = {
+    path = ./templates/daily-2026-11-17;
+    description = "daily-2026-11-17";
   };
   r-default = {
     path = ./templates/default;
